@@ -38,7 +38,6 @@ int main(int argc, char *argv[]) {
         perror("fork failed");
         exit(1);
     }
-    //выход из родительского процесса
     close(fd);
 
     fd_child = open("/Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_2/text_child_task_9.txt", O_RDONLY);

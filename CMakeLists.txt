@@ -6,4 +6,22 @@ set(CMAKE_C_STANDARD 11)
 add_library(untitled STATIC library.c
         os_architecture/lab_1/task_1.c
         os_architecture/lab_1/task_2.c
-        os_architecture/lab_1/task_4.c)
+        os_architecture/lab_1/task_4.c
+        os_architecture/lab_1/task_6.c
+        os_architecture/lab_1/task_7.c
+        os_architecture/lab_1/task_8.c
+        os_architecture/lab_1/task_9.c
+        os_architecture/lab_1/task_10.c
+        os_architecture/lab_1/task_11.c
+        os_architecture/lab_2/task_1.c
+        os_architecture/lab_2/task_2.c
+        os_architecture/lab_2/task_3.c
+        os_architecture/lab_2/task_4.c
+        os_architecture/lab_2/task_5.c
+        os_architecture/lab_2/task_6.c
+        os_architecture/lab_2/task_7.c
+        os_architecture/lab_2/task_8.c
+        os_architecture/lab_2/task_9.c
+        os_architecture/lab_2/task_10.c
+        os_architecture/lab_2/task_11.c
+)
