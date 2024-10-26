@@ -19,22 +19,21 @@ int main() {
 
     pid = fork();
 
-    switch (pid) {
-        case -1:
-            perror("fork failed");
-            exit(1); //выход из родительского процесса
-        case 0:
-            printf("child\t%d\t%d\t%d\n", getpid(), getppid(), getpgid(getpid()));
-            exit(0);
-        default:
-            printf("PARENT\t%d\t%d\t%d\n", getpid(), getppid(), getpgid(getpid()));
-            ch_pid = wait(&status);
-            printf("PARENT: child process %d finished\n", ch_pid);
-            if (WIFEXITED(status))
-                //возвращает ненулевое значение, если порожденный процесс был завершен посредством вызова exit
-                printf("child exited with code %d\n", WIFEXITED(status));
-            else
-                printf("child terminated abnormally\n");
-            exit(0);
+    if (pid < 0) {
+        perror("fork failed");
+        exit(1); //выход из родительского процесса
     }
+    if (pid == 0) {
+        printf("child %d %d %d\n", getpid(), getppid(), getpgid(getpid()));
+        exit(0);
+    }
+    printf("parent %d %d %d\n", getpid(), getppid(), getpgid(getpid()));
+    ch_pid = wait(&status); // wait, waitpid - wait for a child process to stop or terminate
+    printf("parent: child process %d finished\n", ch_pid);
+    if (WIFEXITED(status)) { // returns true if a child process terminates normally
+        printf("child exited with code %d\n", WIFEXITED(status));
+    } else {
+        printf("child terminated abnormally\n");
+    }
+    exit(0);
 }

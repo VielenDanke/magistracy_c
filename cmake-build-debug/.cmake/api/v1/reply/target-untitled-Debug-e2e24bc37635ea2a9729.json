@@ -70,7 +70,8 @@
 				17,
 				18,
 				19,
-				20
+				20,
+				21
 			]
 		}
 	],
@@ -108,7 +109,8 @@
 				17,
 				18,
 				19,
-				20
+				20,
+				21
 			]
 		}
 	],
@@ -238,6 +240,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "os_architecture/lab_2/task_11.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "os_architecture/lab_3/task_1.c",
 			"sourceGroupIndex" : 0
 		}
 	],
