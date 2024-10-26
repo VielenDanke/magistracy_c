@@ -41,23 +41,30 @@ int main(int argc, char *argv[]) {
 
         printf("fd = %d\n", fd);
 
-        if (dup2(fd, 0) == -1) {
-            printf("Duplicating is failed: %s\n", sys_errlist[errno]);
-            exit(1);
-        }
+        // if (dup2(fd, 0) == -1) {
+        //     printf("Duplicating is failed: %s\n", sys_errlist[errno]);
+        //     exit(1);
+        // }
 
         printf("fd_copy = %d\n", fd_copy);
 
-        if (dup2(fd_copy, 1) == -1) {
-            printf("Duplicating is failed: %s\n", sys_errlist[errno]);
-            exit(1);
-        }
+        // if (dup2(fd_copy, 1) == -1) {
+        //     printf("Duplicating is failed: %s\n", sys_errlist[errno]);
+        //     exit(1);
+        // }
+        close(0);
+        close(1);
 
-        close(fd);
-        close(fd_copy);
+        // fcntl(fd, F_DUPFD, 0);
+        // fcntl(fd_copy, F_DUPFD, 1);
+
+        // close(fd);
+        // close(fd_copy);
     }
 
     if (copy_file(0, 1)) printf("Copy failed\n");
 
+    close(fd);
+    close(fd_copy);
     return 0;
 }

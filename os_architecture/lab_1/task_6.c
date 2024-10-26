@@ -23,7 +23,7 @@ int main(int argc, char *argv[]) {
         int ret;
         const int f_size = lseek(fd, 0, SEEK_END);
         printf("File size in bytes: %d\n", f_size);
-        lseek(fd, 8 * 1024, SEEK_SET);
+        lseek(fd, 1024 * 1024 * 1024, SEEK_SET);
         write(fd, buf, sizeof(buf) - 1);
 
         if ((ret = stat(argv[1], &file_stat)) != 0) {

@@ -1,10 +1,10 @@
 # ninja log v6
 2	187	1729418772757768255	CMakeFiles/untitled.dir/library.c.o	c011d745182181e4
 248	277	1729418773004229793	CMakeFiles/untitled.dir/os_architecture/lab_2/task_10.c.o	62ab635a8a459b65
-4	186	1729418772759812313	CMakeFiles/untitled.dir/os_architecture/lab_1/task_6.c.o	9e749529343e988a
+4	188	1729418772759962231	CMakeFiles/untitled.dir/os_architecture/lab_1/task_7.c.o	d435809f196f323c
 277	319	1729418773033118370	libuntitled.a	4d13062da478b739
 222	251	1729418772978067989	CMakeFiles/untitled.dir/os_architecture/lab_2/task_6.c.o	96bacba8b887d406
-4	188	1729418772759962231	CMakeFiles/untitled.dir/os_architecture/lab_1/task_7.c.o	d435809f196f323c
+4	186	1729418772759812313	CMakeFiles/untitled.dir/os_architecture/lab_1/task_6.c.o	9e749529343e988a
 188	222	1729418772944590166	CMakeFiles/untitled.dir/os_architecture/lab_2/task_2.c.o	7f22a8a9ebc46ef9
 3	188	1729418772759575061	CMakeFiles/untitled.dir/os_architecture/lab_1/task_4.c.o	3c8f9ad05f3921e7
 217	247	1729418772973292907	CMakeFiles/untitled.dir/os_architecture/lab_2/task_4.c.o	ea6a35739530e2ed

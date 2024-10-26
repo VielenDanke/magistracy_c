@@ -22,6 +22,7 @@ int main(int argc, char *argv[]) {
     }
     printf("File permissions: %o\n", file_stat.st_mode & 07777); // remove first 100 from the number 100644
     printf("Number of hard links:%d\n", file_stat.st_nlink);
+    printf("System block size in bytes: %d\n", file_stat.st_blksize);
     printf("File size in bytes: %lld\n", file_stat.st_size);
     printf("File size in blocks: %lld\n", file_stat.st_blocks);
     printf("User ID:%d\n", file_stat.st_uid);

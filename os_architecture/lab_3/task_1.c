@@ -1,31 +1,30 @@
 //
 // Created by Vladislav Dankevich on 20.10.2024.
 //
+/*
+ * Steps:
+ * 1. Modify current program to handle SIGINT command (CTRL-C) differently
+ * 2. After handling SIGINT command restore default behavior
+ * 3. Press CTRL-C to shut down the process
+ */
 
 #include <stdio.h>
 #include <signal.h>
 #include <unistd.h>
 
-// Функция-обработчик сигнала
 void signal_handler(int signum) {
-    printf("Получен сигнал %d\n", signum);
-
-    // Восстанавливаем обработку сигнала по умолчанию
+    printf("Receive signal %d\n", signum);
     signal(signum, SIG_DFL);
 }
 
 int main() {
-    // Устанавливаем обработчик для сигнала SIGINT (Ctrl+C)
     if (signal(SIGINT, signal_handler) == SIG_ERR) {
-        perror("Ошибка при вызове signal()");
+        perror("Error during signal()");
         return 1;
     }
-
-    printf("Программа запущена. Нажмите Ctrl+C...\n");
+    printf("Program is ready. Press Ctrl+C...\n");
 
     while (1) {
         sleep(1);
     }
-
-    return 0;
 }

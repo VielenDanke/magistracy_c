@@ -1,6 +1,8 @@
 //
 // Created by Vladislav Dankevich on 19.10.2024.
 //  gcc task_1.c -o task_1
+// ./task_1 1>info.log
+// ./task_1 2>err.log
 //  ./task_1 task_1.c - correct
 //  ./task_1 task_1 - incorrect
 //
@@ -31,12 +33,7 @@ int main(int argc, char *argv[]) {
     if (check_fd(fd) != 1) {
         printf("Open successfully: %s. File descriptor = %d\n", argv[1], fd);
     } else {
-        for (int i = 0; i < sys_nerr; i++) {
-            if (sys_errlist[i] == strerror(errno)) {
-                printf("From sys_errlist: %s. Index in the list: %d\n", sys_errlist[i], i);
-            }
-        }
-        return 1;
+        printf("From sys_errlist: %s. Index in the list: %d\n", sys_errlist[errno], errno);
     }
     return 0;
 }
