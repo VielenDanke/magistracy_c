@@ -3,13 +3,13 @@
 //
 #include <stdio.h>
 #include <stdlib.h>
-#include <errno.h>
 #include <unistd.h>
 #include <sys/types.h>
 #include <sys/wait.h>
 #include <fcntl.h>
 
 // if both are writing to the file the parent process is dominating ?
+// read operation is available only in parent process?
 int main(int argc, char *argv[]) {
     pid_t pid;
     int fd, fd_child, fd_parent, cn, pn, status;
@@ -23,8 +23,8 @@ int main(int argc, char *argv[]) {
         printf("child %d %d %d\n", getpid(), getppid(), getpgid(getpid()));
         fd_child = creat("/Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_2/text_child_task_8.txt", 0777);
         cn = read(fd, buf, sizeof(buf));
+        printf("child read %s\n", buf);
         write(fd_child, buf, cn);
-        // printf("child read %s\n", buf);
         close(fd_child);
         exit(0);
     }
@@ -32,8 +32,8 @@ int main(int argc, char *argv[]) {
         printf("parent %d %d %d\n", getpid(), getppid(), getpgid(getpid()));
         fd_parent = creat("/Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_2/text_parent_task_8.txt", 0777);
         pn = read(fd, buf, sizeof(buf));
+        printf("parent read %s\n", buf);
         write(fd_parent, buf, pn);
-        // printf("parent read %s\n", buf);
         close(fd_parent);
         wait(&status);
     } else {

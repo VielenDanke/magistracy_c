@@ -1,6 +1,10 @@
 //
 // Created by Vladislav Dankevich on 20.10.2024.
 //
+/*
+ * child process appears in `ps` after we stopped the program using CTRL-C
+ * CTRL-C won't affect child process
+ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -12,7 +16,7 @@ int main() {
 
     if (pid == 0) {
         // Child process
-        pid_t spgrp = setpgrp(); // creates a group of processes and nominate current process as a lider
+        pid_t spgrp = setpgrp(); // creates a group of processes and nominate current process as a leader
         if (spgrp < 0) {
             perror("setgrp");
             exit(1);
