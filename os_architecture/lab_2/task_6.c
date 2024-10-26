@@ -1,6 +1,14 @@
 //
 // Created by Vladislav Dankevich on 20.10.2024.
 //
+/*
+ * `ps` to check all the processes in the system
+ * `kill -9` to kill process
+ * the child process still in the `ps` because now it's attached to parent process (PID 1)?
+ * CTRL-C kills both parent and child processes
+ * We cannot do the same after parent process is finished, because parent process ends up the programm
+ * and child process become attached to a parent process
+ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -20,7 +28,7 @@ int main() {
     if (pid > 0) {
         // Parent process
         printf("Parent process (PID: %d).\n", getpid());
-        pause();
+        // pause();
         printf("Parent process finished\n");
         exit(0);
     }

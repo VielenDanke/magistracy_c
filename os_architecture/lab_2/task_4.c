@@ -11,18 +11,18 @@ int main() {
     pid_t pid;
 
     pid = fork();
-    switch (pid) {
-        case -1:
-            perror("fork failed");
-            exit(1); //выход из родительского процесса
-        case 0:
-            printf("child\t%d\t%d\t%d\n", getpid(), getppid(), getpgid(getpid()));
-            sleep(3);
-            printf("child process finished\n");
-            exit(0);
-        default:
-            printf("PARENT\t%d\t%d\t%d\n", getpid(), getppid(), getpgid(getpid()));
-            printf("PARENT process finished\n");
-            exit(0);
+
+    if (pid < 0) {
+        perror("fork failed");
+        exit(1); // exit parent process
     }
+    if (pid == 0) {
+        printf("child %d %d %d\n", getpid(), getppid(), getpgid(getpid()));
+        sleep(3); // wait 3 seconds to allow parent process to finish first
+        printf("child process finished\n");
+        exit(0);
+    }
+    printf("parent %d %d %d\n", getpid(), getppid(), getpgid(getpid()));
+    printf("parent process finished\n");
+    exit(0);
 }
