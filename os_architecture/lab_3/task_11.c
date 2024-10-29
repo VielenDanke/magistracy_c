@@ -28,7 +28,8 @@ int main(void) {
     static struct sigaction action, ch_action;
     sigset_t mask;
     int c = 0;
-    sigfillset(&mask);
+    sigfillset(&mask); // initializes to full - including all signals
+    sigprocmask(SIG_BLOCK, &mask, NULL);
 
     action.sa_handler = handler1; // provide signal handler
     action.sa_flags = 0; // default behavior fir signal handler
@@ -39,7 +40,6 @@ int main(void) {
     sigaction(SIGUSR2, &ch_action, NULL);
     ch_action.sa_flags = 0; // default behavior fir signal handler
     sigemptyset(&ch_action.sa_mask); // make all signals non-blocked
-    sigprocmask(SIG_BLOCK, &mask,NULL);
 
     pid = fork();
 
