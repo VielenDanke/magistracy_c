@@ -73,7 +73,14 @@
 				20,
 				21,
 				22,
-				23
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30
 			]
 		}
 	],
@@ -114,7 +121,14 @@
 				20,
 				21,
 				22,
-				23
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30
 			]
 		}
 	],
@@ -262,6 +276,48 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "os_architecture/lab_3/task_2.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "os_architecture/lab_3/task_3.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "os_architecture/lab_3/task_4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "os_architecture/lab_3/task_5.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "os_architecture/lab_3/task_6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "os_architecture/lab_3/task_7.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "os_architecture/lab_3/task_8.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "os_architecture/lab_3/task_9.c",
 			"sourceGroupIndex" : 0
 		}
 	],
