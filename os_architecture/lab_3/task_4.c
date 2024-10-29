@@ -26,5 +26,5 @@ int main() {
     }
     int status;
     wait(&status);
-    printf("child process finished with status %d\n", WEXITSTATUS(status));
+    printf("child process finished with status %d\n", status);
 }
