@@ -10,24 +10,23 @@
 #include <sys/wait.h>
 
 // can we kill zombie process because it's already dead?
+// kill -s SIGCHLD <PID родительского процесса>
+// kill <PID родительского процесса>
 int main() {
-    pid_t pid = fork();  // Fork a child process
+    pid_t pid = fork(); // Fork a child process
 
+    if (pid < 0) {
+        perror("fork failed");
+        exit(1);
+    }
     if (pid == 0) {
         // Child process
-        printf("Child process (PID: %d) is terminating.\n", getpid());
-        // pid_t parent_pid = getppid();
-        // kill(parent_pid, SIGCHLD);
-        exit(0);  // Child terminates
+        sleep(3);
+        printf("child process finished\n");
+        exit(0);
     }
-    if (pid > 0) {
-        // Parent process
-        printf("Parent process (PID: %d).\n", getpid());
-        waitpid(pid, NULL, 0); // wait for child process to finish
-        printf("Reaped child process (PID: %d).\n", pid);
-    } else {
-        perror("fork failed");
-    }
-
+    // Parent process
+    sleep(10);
+    printf("parent process finished\n");
     return 0;
 }

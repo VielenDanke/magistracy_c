@@ -15,6 +15,8 @@
 #include <unistd.h>
 #include <sys/_types/_pid_t.h>
 
+// if 2 processes are on pause, the processes are waiting for a termination signal
+// if only child process is on pause, when parent process is finished, the child process will be attached to the main process PID 1 (when OS loads)
 int main() {
     pid_t pid = fork();  // Fork a child process
 

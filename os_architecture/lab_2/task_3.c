@@ -28,9 +28,9 @@ int main() {
         exit(0);
     }
     printf("parent %d %d %d\n", getpid(), getppid(), getpgid(getpid()));
-    ch_pid = wait(&status); // wait, waitpid - wait for a child process to stop or terminate
+    ch_pid = wait(&status); // wait, waitpid - wait for a child process to stop or terminate or receive a signal
     printf("parent: child process %d finished\n", ch_pid);
-    if (WIFEXITED(status)) { // returns true if a child process terminates normally
+    if (WIFEXITED(status)) { // macro used to determine if a child process has exited normally
         printf("child exited with code %d\n", WIFEXITED(status));
     } else {
         printf("child terminated abnormally\n");

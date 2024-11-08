@@ -34,10 +34,9 @@ int main(int argc, char *argv[], char *envp[]) {
         exit(1);
     }
     if (pid == 0) {
-        // dangerous, creates a ton of processes
-        execle("/Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_2/task_10", "l1", "l2", "l3", NULL, env);
         print_args(argv, "child", getpid());
         print_envs(envp, "child", getpid());
+        execle("/Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_2/task_1", "l1", "l2", "l3", NULL, env);
         exit(0);
     }
     print_args(argv, "parent", getpid());

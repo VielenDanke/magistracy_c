@@ -11,8 +11,12 @@
 #include <unistd.h>
 #include <sys/_types/_pid_t.h>
 
+// Повлияет ли на порожденный процесс нажатие клавиши прерывания в тот момент, когда родительский процесс "спит"? Нет
+// Будет ли показан порожденный процесс в выводе команды ps? Да
 int main() {
     pid_t pid = fork();  // Fork a child process
+
+    pid_t current_process_pid = getpid();
 
     if (pid == 0) {
         // Child process
@@ -21,16 +25,16 @@ int main() {
             perror("setgrp");
             exit(1);
         }
-        printf("Child %d %d %d %d\n", getpid(), getppid(), getpgid(getpid()), spgrp);
+        printf("Child process %d. Group %d\n", current_process_pid, spgrp);
         pause();
-        printf("Child process finished\n");
+        printf("Child process %d finished\n", current_process_pid);
         exit(0);  // Child terminates
     }
     if (pid > 0) {
         // Parent process
-        printf("Parent process (PID: %d).\n", getpid());
+        printf("Parent process %d\n", current_process_pid);
         pause();
-        printf("Parent process finished\n");
+        printf("Parent process %d finished\n", current_process_pid);
         exit(0);
     }
     perror("fork failed");
