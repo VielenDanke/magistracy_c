@@ -20,9 +20,13 @@ int main(int argc, char *argv[], char *envp[]) {
         exit(1); //выход из родительского процесса
     }
     if (pid == 0) {
+        printf("child process\n");
         execvp(f, argv); //execvp (file, argv)
+        printf("child process finished\n"); // group of exec() functions replaces the current process image therefore the printf won't be executed
         exit(0);
     }
+    printf("parent process\n");
     system("ls -l");
+    printf("parent process finished\n");
     exit(0);
 }

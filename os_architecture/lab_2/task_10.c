@@ -34,13 +34,17 @@ int main(int argc, char *argv[], char *envp[]) {
         exit(1);
     }
     if (pid == 0) {
+        printf("child process\n");
         print_args(argv, "child", getpid());
         print_envs(envp, "child", getpid());
         execle("/Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_2/task_1", "l1", "l2", "l3", NULL, env);
+        printf("child process finished\n"); // group of exec() functions replaces the current process image therefore the printf won't be executed
         exit(0);
     }
+    printf("parent process\n");
     print_args(argv, "parent", getpid());
     print_envs(envp, "parent", getpid());
+    printf("parent process finished\n");
 
     return 0;
 }
