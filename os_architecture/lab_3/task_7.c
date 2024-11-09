@@ -7,9 +7,9 @@
 // Created by Vladislav Dankevich on 28.10.2024.
 //
 /*
-Child’s State	Suspended, waiting for a signal	                    Actively running nested loops
-Termination	    Triggered by SIGKILL (forced termination)	        Normally completes loops or terminated by SIGKILL
-Parent’s wait()	Waits until the child receives a termination signal	Waits until the child exits, either naturally or by signal
+Child’s State	    Suspended, waiting for a signal	                        Actively running nested loops
+Termination	        Triggered by SIGKILL (forced termination)	            Normally completes loops or terminated by SIGKILL
+Parent’s wait()	    Waits until the child receives a termination signal	    Waits until the child exits, either naturally or by signal
 */
 int main() {
     pid_t pid = fork();
