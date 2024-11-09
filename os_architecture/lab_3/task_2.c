@@ -6,9 +6,11 @@
 #include <signal.h>
 #include <unistd.h>
 
+struct sigaction old_sig_action;
+
 void signal_handler(int signum) {
     printf("Receive signal %d\n", signum);
-    signal(signum, SIG_DFL);
+    sigaction(signum, &old_sig_action, NULL);
 }
 
 int main() {
@@ -16,8 +18,9 @@ int main() {
 
     new_action.sa_handler = signal_handler;
 
-    sigaction(SIGINT, &new_action, NULL);
-    printf("Program is ready. Press Ctrl+C...\n");
+    sigaction(SIGINT, &new_action, &old_sig_action);
+
+    printf("Program is ready. Press Ctrl+C to end the execution and send a signal to a custom handler\n");
 
     while (1) {
         sleep(1);

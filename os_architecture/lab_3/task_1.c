@@ -18,11 +18,9 @@ void signal_handler(int signum) {
 }
 
 int main() {
-    if (signal(SIGINT, signal_handler) == SIG_ERR) {
-        perror("Error during signal()");
-        return 1;
-    }
-    printf("Program is ready. Press Ctrl+C...\n");
+    signal(SIGINT, signal_handler);
+
+    printf("Program is ready. Press Ctrl+C to end the execution and send a signal to a custom handler\n");
 
     while (1) {
         sleep(1);
