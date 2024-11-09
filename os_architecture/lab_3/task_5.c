@@ -27,11 +27,12 @@ int main() {
     }
     printf("parent process started %d. child process %d\n", getpid(), pid);
     sleep(2);
-    if (kill(pid, SIGUSR1) == -1) {
+    if (kill(pid, SIGUSR1) == -1) { // #define SIGUSR1 30      /* user defined signal 1 */
         perror("kill failed ");
         exit(1);
     }
     int status;
     waitpid(pid, &status, 0);
-    printf("child process finished with status %d\n", status);
+    printf("child process finished with status %d\n", status); // status 30
+    // status is equal to what we sent using kill command
 }
