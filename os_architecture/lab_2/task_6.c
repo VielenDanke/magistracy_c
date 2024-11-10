@@ -30,7 +30,7 @@ int main() {
     if (pid > 0) {
         // Parent process
         printf("Parent process (PID: %d).\n", getpid());
-        // pause();
+        pause();
         printf("Parent process finished\n");
         exit(0);
     }
