@@ -14,6 +14,7 @@ int main() {
         exit(1);
     }
     if (pid == 0) {
+        printf("child process %d\n", getpid());
         for (int i = 0; i < 100; i++) {
             for (int j = 0; j < 1000; j++) {
                 for (int p = 0; p < 10000; p++) {
@@ -22,9 +23,10 @@ int main() {
             }
             printf("%d\n", i);
         }
-        exit(9);
+        exit(SIGCHLD);
     }
+    printf("parent process %d\n", getpid());
     int status;
     wait(&status);
-    printf("child process finished with status %d\n", WEXITSTATUS(status));
+    printf("child process finished with status %d\n", status);
 }

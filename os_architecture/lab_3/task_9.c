@@ -19,7 +19,6 @@ int main() {
     }
     if (pid == 0) {
         // signal(SIGALRM, action); turn off or on
-        alarm(2);
         alarm(6);
         printf("child process started %d\n", getpid());
         for (int i = 0; i < 10; i++) {

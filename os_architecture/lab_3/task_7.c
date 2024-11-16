@@ -20,11 +20,14 @@ int main() {
     }
     if (pid == 0) {
         printf("child process started %d\n", getpid());
-        pause();
+        while (1) {
+            pause();
+            printf("iterate \n");
+        }
     }
     printf("parent process started %d. child process %d\n", getpid(), pid);
     sleep(2);
-    if (kill(pid, SIGKILL) == -1) {
+    if (kill(pid, SIGINT) == -1) {
         perror("kill failed ");
         exit(1);
     }

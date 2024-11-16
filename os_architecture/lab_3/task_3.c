@@ -21,7 +21,7 @@ void action(int signal) {
 }
 
 int main() {
-    signal(SIGCHLD, action); // SIGCHLD - to parent on child stop or exit. Install action on SIGCHLD command
+    signal(SIGCHLD, SIG_IGN); // SIGCHLD - to parent on child stop or exit. Install action on SIGCHLD command
     /*
     struct sigaction sa;
     sa.sa_handler = action;

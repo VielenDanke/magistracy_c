@@ -9,10 +9,13 @@
 void sigusr1_handler(int sig) {
     printf("Signal %d. Child process (PID %d) received SIGUSR1!\n", sig, getpid());
     sleep(2);
+    printf("End of signal %d for PID %d\n", sig, getpid());
 }
+
 void sigusr2_handler(int sig) {
     printf("Signal %d. Child process (PID %d) received SIGUSR2!\n", sig, getpid());
     sleep(2);
+    printf("End of signal %d for PID %d\n", sig, getpid());
 }
 
 int main() {
@@ -52,6 +55,7 @@ int main() {
         perror("kill failed");
         exit(1);
     }
+    sleep(1);
     if (kill(pid, SIGUSR2) == -1) {
         perror("kill failed");
         exit(1);

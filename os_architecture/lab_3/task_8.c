@@ -22,19 +22,12 @@ int main() {
     if (pid == 0) {
         signal(SIGUSR1, action);
         printf("child process started %d\n", getpid());
-        for (int i = 0; i < 10; i++) {
-            for (int j = 0; j < 10000; j++) {
-                for (int p = 0; p < 100000; p++) {
-
-                }
-            }
-            printf("%d\n", i);
-        }
+        pause();
         exit(0);
     }
     printf("parent process started %d. child process %d\n", getpid(), pid);
     sleep(2);
-    if (kill(pid, SIGUSR1) == -1) {
+    if (kill(pid, SIGCHLD) == -1) {
         perror("kill failed ");
         exit(1);
     }
