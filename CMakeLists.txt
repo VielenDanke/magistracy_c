@@ -49,4 +49,8 @@ add_library(untitled STATIC library.c
         os_architecture/lab_4/task_9.c
         os_architecture/lab_4/task_10.c
         os_architecture/lab_4/task_11.c
+        os_architecture/lab_5/task_1.c
+        os_architecture/lab_5/task_2.c
+        os_architecture/lab_5/task_3.c
+        os_architecture/lab_5/task_4.c
 )

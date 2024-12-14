@@ -23,10 +23,10 @@ int main() {
             }
             printf("%d\n", i);
         }
-        exit(SIGCHLD);
+        exit(SIGKILL);
     }
     printf("parent process %d\n", getpid());
     int status;
     wait(&status);
-    printf("child process finished with status %d\n", status);
+    printf("child process finished with status %d. Higher 8 bits %d. Lower 8 bits %d\n", status, status & 0xFF, status >> 8);
 }

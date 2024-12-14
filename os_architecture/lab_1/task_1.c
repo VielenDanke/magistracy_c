@@ -29,11 +29,12 @@ int check_fd(const int fd) {
 }
 
 int main(int argc, char *argv[]) {
-    const int fd = open(argv[1], O_RDONLY);
-    if (check_fd(fd) != 1) {
-        printf("Open successfully: %s. File descriptor = %d\n", argv[1], fd);
-    } else {
-        printf("From sys_errlist: %s. Index in the list: %d\n", sys_errlist[errno], errno);
-    }
-    return 0;
+    // const int fd = open(argv[1], O_RDONLY);
+    // if (check_fd(fd) != 1) {
+    //     printf("Open successfully: %s. File descriptor = %d\n", argv[1], fd);
+    // } else {
+    //     printf("From sys_errlist: %s. Index in the list: %d\n", sys_errlist[errno], errno);
+    // }
+    // return 0;
+    printf("%d\n", 2304 / 256); // SIGKILL
 }
