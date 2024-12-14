@@ -7,9 +7,9 @@
 #include <sys/wait.h>
 
 int main() {
-    int pipefd[2]; // Создаем канал
+    int pipefd[2]; // create a channel
 
-    // Проверяем, успешно ли создан канал
+    // check if it's created
     if (pipe(pipefd) == -1) {
         perror("pipe");
         exit(1);
