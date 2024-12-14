@@ -34,7 +34,7 @@ int main() {
 
         while (1) {
             fgets(buffer, sizeof(buffer), stdin);
-            printf("Дочерний процесс: %s", buffer);
+            printf("Child process: %s", buffer);
             fflush(stdout); // Очищаем буфер вывода
         }
         lock.l_type = F_UNLCK;
@@ -55,12 +55,11 @@ int main() {
         perror("fcntl (setlk)");
         exit(1);
     }
-    // Родительский процесс
     char buffer[1024];
 
     while (1) {
         fgets(buffer, sizeof(buffer), stdin);
-        printf("Родительский процесс: %s", buffer);
+        printf("Parent process: %s", buffer);
         fflush(stdout); // Очищаем буфер вывода
     }
     lock.l_type = F_UNLCK;

@@ -7,59 +7,29 @@
 #include <sys/wait.h>
 
 int main() {
-    int pipefd[2]; // create a channel
+    int pipefd[2];
 
-    // check if it's created
-    if (pipe(pipefd) == -1) {
+    if (pipe(pipefd) < 0) {
         perror("pipe");
         exit(1);
     }
+    switch (fork()) {
+        case -1:
+            perror("Fork failed");
+            exit(1);
+        case 0:
+            close(pipefd[0]);
+            printf("child process %d\n", getpid());
+            dup2(pipefd[1], STDOUT_FILENO);
+            execlp("who", "who", NULL);
+            exit(EXIT_FAILURE);
+        default:
+            close(pipefd[1]);
+            printf("PARENT process %d\n", getpid());
+            dup2(STDOUT_FILENO, pipefd[1]);
 
-    pid_t pid1 = fork();
-
-    if (pid1 < 0) {
-        perror("fork");
-        exit(1);
+            dup2(pipefd[0], STDIN_FILENO);
+            execlp("wc", "wc", "-l", NULL);
+            exit(EXIT_FAILURE);
     }
-    if (pid1 == 0) {
-        printf("Child process with WHO\n");
-
-        close(pipefd[0]);
-
-        dup2(pipefd[1], STDOUT_FILENO);
-        close(pipefd[1]);
-
-        execlp("who", "who", NULL);
-
-        perror("execlp ");
-        exit(1);
-    }
-    printf("Parent process\n");
-
-    pid_t pid2 = fork();
-
-    if (pid2 < 0) {
-        perror("fork");
-        exit(1);
-    }
-    if (pid2 == 0) {
-        printf("Child process with WC\n");
-
-        close(pipefd[1]);
-
-        dup2(pipefd[0], STDIN_FILENO);
-        close(pipefd[0]);
-
-        execlp("wc", "wc", "-l", NULL);
-
-        perror("execlp ");
-        exit(1);
-    }
-    close(pipefd[0]);
-    close(pipefd[1]);
-
-    wait(&pid2);
-    wait(&pid1);
-
-    return 0;
 }

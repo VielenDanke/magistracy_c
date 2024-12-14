@@ -43,7 +43,7 @@ int main() {
 
         // Reading while the channel is not empty and there is no EOF signal
         char buffer[1024];
-        int bytes_read;
+        ssize_t bytes_read;
         while ((bytes_read = read(pipefd_bi[0], buffer, sizeof(buffer))) > 0) {
             printf("Parent process received: %s", buffer);
             write(pipefd_bi[0], buffer, strlen(buffer) + 1);

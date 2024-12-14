@@ -52,7 +52,7 @@ int main() {
 
     // reading from a channel
     char buffer[1024];
-    int bytes_read;
+    ssize_t bytes_read;
     while ((bytes_read = read(pipefd[0], buffer, sizeof(buffer))) > 0) {
         printf("Parent process received: %s", buffer);
     }

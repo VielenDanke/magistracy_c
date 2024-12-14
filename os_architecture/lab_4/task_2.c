@@ -41,12 +41,16 @@ int main() {
 
         // Reading while the channel is not empty and there is no EOF signal
         char buffer[1024];
-        int bytes_read;
+        ssize_t bytes_read;
         while ((bytes_read = read(pipefd[0], buffer, sizeof(buffer))) > 0) {
             printf("Parent process received: %s", buffer);
-        }
-        if (bytes_read == -1) {
-            perror("read ");
+            if (bytes_read == -1) {
+                perror("read ");
+                break;
+            } else if (bytes_read == 0) {
+                printf("Nothing in a channel. Stop executing\n");
+                break;
+            }
         }
         // Close reading descriptor
         close(pipefd[0]);

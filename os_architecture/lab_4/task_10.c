@@ -14,19 +14,19 @@ int main() {
     }
 
     if (pid == 0) {
-        // Дочерний процесс
+        // Child process
         char buffer[1024];
         while (1) {
             fgets(buffer, sizeof(buffer), stdin);
-            printf("Дочерний процесс: %s", buffer);
+            printf("Child process: %s", buffer);
             fflush(stdout); // Очищаем буфер вывода
         }
     }
-    // Родительский процесс
+    // Parent process
     char buffer[1024];
     while (1) {
         fgets(buffer, sizeof(buffer), stdin);
-        printf("Родительский процесс: %s", buffer);
+        printf("Parent process: %s", buffer);
         fflush(stdout); // Очищаем буфер вывода
     }
     wait(NULL); // Ожидание завершения дочернего процесса
