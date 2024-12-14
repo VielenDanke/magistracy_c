@@ -26,7 +26,7 @@ int main(int argc, char *argv[]) {
 
 
     if (pid == 0) {
-        sleep(1);
+        sleep(5);
 
         int fd = open(filename, O_RDONLY);
         if (fd == -1) {
@@ -58,6 +58,7 @@ int main(int argc, char *argv[]) {
                 perror("read");
                 break;
             }
+            sleep(1);
         }
         lock.l_type = F_UNLCK;
         if (fcntl(fd, F_SETLK, &lock) == -1) {
@@ -75,6 +76,25 @@ int main(int argc, char *argv[]) {
     int i = 0;
 
     while (i++ < 1000) {
+        struct flock lock;
+        memset(&lock, 0, sizeof(lock));
+        lock.l_type = F_WRLCK;
+        lock.l_whence = SEEK_SET;
+        lock.l_start = 0;
+        lock.l_len = 0;
+
+        if (fcntl(fd, F_GETLK, &lock) == -1) {
+            perror("fcntl (getlk)");
+            exit(1);
+        }
+
+        if (lock.l_type != F_UNLCK) {
+            printf("FD is blocked.\n");
+            sleep(1);
+            continue;
+        } else {
+            printf("FD is not blocked\n");
+        }
         ssize_t written_bytes = write(fd, message, strlen(message));
         if (written_bytes == -1) {
             perror("write");
@@ -84,6 +104,8 @@ int main(int argc, char *argv[]) {
             printf("Empty message. Stop\n");
             break;
         }
+        printf("Written bytes: %zd\n", written_bytes);
+        sleep(1);
     }
     close(fd);
 

@@ -25,9 +25,8 @@ int main() {
             exit(EXIT_FAILURE);
         default:
             close(pipefd[1]);
-            printf("PARENT process %d\n", getpid());
+            printf("parent process %d\n", getpid());
             dup2(STDOUT_FILENO, pipefd[1]);
-
             dup2(pipefd[0], STDIN_FILENO);
             execlp("wc", "wc", "-l", NULL);
             exit(EXIT_FAILURE);
