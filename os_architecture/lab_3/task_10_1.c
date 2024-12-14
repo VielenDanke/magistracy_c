@@ -11,24 +11,23 @@ volatile sig_atomic_t signal_count = 0;
 void signal_handler(int signum) {
     sigset_t mask, oldmask;
 
-    // Заполняем маску всеми сигналами
     sigfillset(&mask);
 
-    // Блокируем все сигналы
+    // block all signals
     if (sigprocmask(SIG_BLOCK, &mask, &oldmask) < 0) {
-        perror("sigprocmask");
+        perror("sigprocmask ");
         exit(1);
     }
-
-    // Имитируем длительную обработку сигнала
     printf("Start signal %d for process %d\n", signum, getpid());
+
     sleep(5);
+
     signal_count++;
+
     printf("Finish signal %d for process %d\n", signum, getpid());
 
-    // Восстанавливаем предыдущую маску сигналов
     if (sigprocmask(SIG_SETMASK, &oldmask, NULL) < 0) {
-        perror("sigprocmask");
+        perror("sigprocmask ");
         exit(1);
     }
 }
