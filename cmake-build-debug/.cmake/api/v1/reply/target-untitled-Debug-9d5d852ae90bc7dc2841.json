@@ -100,7 +100,9 @@
 				47,
 				48,
 				49,
-				50
+				50,
+				51,
+				52
 			]
 		}
 	],
@@ -168,7 +170,9 @@
 				47,
 				48,
 				49,
-				50
+				50,
+				51,
+				52
 			]
 		}
 	],
@@ -478,6 +482,18 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "os_architecture/lab_5/task_6.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "os_architecture/lab_5/task_7.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "os_architecture/lab_5/task_8.c",
 			"sourceGroupIndex" : 0
 		}
 	],
