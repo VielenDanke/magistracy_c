@@ -11,7 +11,7 @@
 
 struct message {
     long mtype; // message type
-    char mtext[1024]; // message text
+    char mtext[128]; // message text
 };
 
 int main(int argc, char *argv[]) {
@@ -20,23 +20,16 @@ int main(int argc, char *argv[]) {
         exit(1);
     }
 
-    int msgid = atoi(argv[1]);
+    int msqid = atoi(argv[1]);
     long mtype = atol(argv[2]);
-    int bytes_to_read = atoi(argv[3]);
 
     struct message msg;
 
-    // receive msg of size msg.mtext (1024)
-    ssize_t received_bytes = msgrcv(msgid, &msg, sizeof(msg.mtext), mtype, 0);
+    // MSG_NOERROR will trim text if it's too big. Other part will be lost
+    ssize_t received_bytes = msgrcv(msqid, &msg, sizeof(msg.mtext), mtype, MSG_NOERROR);
     if (received_bytes == -1) {
         perror("msgrcv");
         exit(1);
-    }
-    // trim message
-    if (received_bytes > bytes_to_read) {
-        msg.mtext[bytes_to_read] = '\0';
-    } else {
-        msg.mtext[received_bytes] = '\0';
     }
     printf("Received message type %ld: %s\n", msg.mtype, msg.mtext);
 

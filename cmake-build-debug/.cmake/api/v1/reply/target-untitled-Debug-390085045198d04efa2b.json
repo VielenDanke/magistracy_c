@@ -36,7 +36,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.1.sdk -fcolor-diagnostics"
+					"fragment" : "-g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics"
 				}
 			],
 			"language" : "C",
@@ -98,7 +98,9 @@
 				45,
 				46,
 				47,
-				48
+				48,
+				49,
+				50
 			]
 		}
 	],
@@ -164,7 +166,9 @@
 				45,
 				46,
 				47,
-				48
+				48,
+				49,
+				50
 			]
 		}
 	],
@@ -462,6 +466,18 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "os_architecture/lab_5/task_4.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "os_architecture/lab_5/task_5.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "os_architecture/lab_5/task_6.c",
 			"sourceGroupIndex" : 0
 		}
 	],
