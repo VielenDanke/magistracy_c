@@ -104,7 +104,8 @@
 				51,
 				52,
 				53,
-				54
+				54,
+				55
 			]
 		}
 	],
@@ -176,7 +177,8 @@
 				51,
 				52,
 				53,
-				54
+				54,
+				55
 			]
 		}
 	],
@@ -510,6 +512,12 @@
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
 			"path" : "os_architecture/lab_5/task_10.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "os_architecture/lab_5/task_11.c",
 			"sourceGroupIndex" : 0
 		}
 	],
