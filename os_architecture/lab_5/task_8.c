@@ -20,7 +20,9 @@ struct message {
 };
 
 void sigint_handler(int sig) {
-    printf("SIGINT received\n");
+    printf("SIGINT received %d\n", msqid);
+
+    // TODO: check if queue exist
 
     if (msgctl(msqid, IPC_RMID, NULL) == -1) {
         perror("error deleting queue");
@@ -44,6 +46,8 @@ int main() {
         perror("msgget");
         exit(1);
     }
+    signal(SIGINT, sigint_handler);
+
     for (long i = 100; i < 110; i++) {
         pid_t pid = fork();
 
@@ -69,8 +73,6 @@ int main() {
         }
     }
     sleep(2);
-
-    signal(SIGINT, sigint_handler);
 
     printf("Parent process with PID %d started\n", getpid());
 

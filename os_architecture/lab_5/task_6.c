@@ -57,7 +57,7 @@ int main() {
     if (pid == 0) {
         printf("Client process started\n");
 
-        struct message info_message = {999};
+        struct message info_message = {1};
 
         char str[MAX_MSG_SIZE];
 
@@ -112,7 +112,7 @@ int main() {
 
     struct message info_message;
 
-    if (msgrcv(server_msqid, &info_message, sizeof(info_message.mtext), 999, MSG_NOERROR) == -1) {
+    if (msgrcv(server_msqid, &info_message, sizeof(info_message.mtext), 1, MSG_NOERROR) == -1) {
         perror("msgrcv");
         exit(EXIT_FAILURE);
     }

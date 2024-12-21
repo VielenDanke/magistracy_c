@@ -6,6 +6,9 @@
 #include <sys/ipc.h>
 #include <sys/msg.h>
 
+#include "../../../../../../Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/string.h"
+#include "../../../../../../Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/usr/include/sys/errno.h"
+
 /*
 *IPC_RMID
 Немедленно удалить очередь сообщений и связанную с ним структуру данных,
