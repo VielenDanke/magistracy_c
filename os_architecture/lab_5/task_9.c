@@ -78,10 +78,10 @@ int main() {
             exit(EXIT_FAILURE);
         }
         if (pid == 0) {
-            long number = getpid();
-            char str[50]; // Make sure this buffer is large enough!
+            long current_pid = getpid();
+            char str[1024]; // Make sure this buffer is large enough!
 
-            int result = sprintf(str, "%ld-text", number);
+            int result = sprintf(str, "%ld-text", current_pid);
 
             if (result < 0) {
                 fprintf(stderr, "Error formatting the string.\n");
@@ -92,21 +92,38 @@ int main() {
             strcpy(serv_msg.mtext, str);
 
             if (msgsnd(server_msqid, &serv_msg, sizeof(serv_msg.mtext), 0) == -1) {
-                perror("msgrcv");
+                perror("msgsnd");
                 exit(EXIT_FAILURE);
             }
             printf("Child process with PID %d started\n", getpid());
 
             while (1) {
-                struct message msg;
+                int msg_text_result = sprintf(str, "Hello from client with pid %ld", current_pid);
 
-                // msgtype 0 - pick any first message
-                // MSG_NOERROR - trim message if it's too big
-                if (msgrcv(client_msqid, &msg, sizeof(msg.mtext), 0, MSG_NOERROR) == -1) {
-                    perror("msgrcv");
+                if (msg_text_result < 0) {
+                    fprintf(stderr, "Error formatting the string.\n");
+                    exit(EXIT_FAILURE); // Handle the error
+                }
+                struct message to_send = {current_pid};
+
+                strcpy(to_send.mtext, str);
+
+                if (msgsnd(server_msqid, &to_send, sizeof(serv_msg.mtext), 0) == -1) {
+                    perror("msgsnd");
                     exit(EXIT_FAILURE);
                 }
+
+                struct message msg;
+                // msgtype 0 - pick any first message
+                // MSG_NOERROR - trim message if it's too big
+                if (msgrcv(client_msqid, &msg, sizeof(msg.mtext), current_pid, IPC_NOWAIT) == -1) {
+                    printf("No message exist for client %d", getpid());
+                    sleep(5);
+                    continue;
+                }
                 printf("Client %d received message: %s\n", getpid(), msg.mtext);
+
+                sleep(5);
             }
         }
     }
@@ -120,6 +137,7 @@ int main() {
         struct message msg;
 
         if (msgrcv(server_msqid, &msg, sizeof(msg.mtext), 0, IPC_NOWAIT) == -1) {
+            printf("No message exist for server\n");
             sleep(5);
             continue;
         }
@@ -147,7 +165,7 @@ int main() {
                 fprintf(stderr, "Invalid string format: non-numeric characters found.\n");
                 exit(EXIT_FAILURE);
             }
-            if (number == 0 && ptr == msg.mtext){
+            if (number == 0 && ptr == msg.mtext) {
                 fprintf(stderr, "Invalid number: zero length.\n");
                 exit(EXIT_FAILURE);
             }
@@ -161,7 +179,10 @@ int main() {
                 printf("Skip sending self message to a client %ld\n", clients[i]);
                 continue;
             }
-            struct message new_msg = {i};
+            if (clients[i] == 0) {
+                continue;
+            }
+            struct message new_msg = {clients[i]};
 
             strcpy(new_msg.mtext, msg.mtext);
 
