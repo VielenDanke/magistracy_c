@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/vladislavdankevich/CLionProjects/untitled/cmake-build-debug",
-		"source" : "/Users/vladislavdankevich/CLionProjects/untitled"
+		"build" : "/Users/dankekz/CLionProjects/magistracy_c/cmake-build-debug",
+		"source" : "/Users/dankekz/CLionProjects/magistracy_c"
 	},
 	"version" : 
 	{

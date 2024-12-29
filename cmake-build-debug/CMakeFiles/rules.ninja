@@ -25,7 +25,7 @@ rule C_COMPILER__untitled_unscanned_Debug
 # Rule for linking C static library.
 
 rule C_STATIC_LIBRARY_LINKER__untitled_Debug
-  command = $PRE_LINK && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E rm -f $TARGET_FILE && /Library/Developer/CommandLineTools/usr/bin/ar qc $TARGET_FILE $LINK_FLAGS $in && /Library/Developer/CommandLineTools/usr/bin/ranlib $TARGET_FILE && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
+  command = $PRE_LINK && /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E rm -f $TARGET_FILE && /Library/Developer/CommandLineTools/usr/bin/ar qc $TARGET_FILE $LINK_FLAGS $in && /Library/Developer/CommandLineTools/usr/bin/ranlib $TARGET_FILE && /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E touch $TARGET_FILE && $POST_BUILD
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
 
@@ -42,7 +42,7 @@ rule CUSTOM_COMMAND
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/vladislavdankevich/CLionProjects/untitled -B/Users/vladislavdankevich/CLionProjects/untitled/cmake-build-debug
+  command = /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/dankekz/CLionProjects/magistracy_c -B/Users/dankekz/CLionProjects/magistracy_c/cmake-build-debug
   description = Re-running CMake...
   generator = 1
 
@@ -51,7 +51,7 @@ rule RERUN_CMAKE
 # Rule for cleaning all built files.
 
 rule CLEAN
-  command = /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja $FILE_ARG -t clean $TARGETS
+  command = /Users/dankekz/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja $FILE_ARG -t clean $TARGETS
   description = Cleaning all built files...
 
 
@@ -59,6 +59,6 @@ rule CLEAN
 # Rule for printing all primary targets available.
 
 rule HELP
-  command = /Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -t targets
+  command = /Users/dankekz/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja -t targets
   description = All primary targets available:
 

@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/vladislavdankevich/CLionProjects/untitled/cmake-build-debug"
+			"value" : "/Users/dankekz/CLionProjects/magistracy_c/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -115,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake"
+			"value" : "/Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -127,7 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cpack"
+			"value" : "/Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -139,7 +139,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest"
+			"value" : "/Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER",
@@ -383,7 +383,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/vladislavdankevich/CLionProjects/untitled/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/Users/dankekz/CLionProjects/magistracy_c/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -443,7 +443,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Users/vladislavdankevich/CLionProjects/untitled"
+			"value" : "/Users/dankekz/CLionProjects/magistracy_c"
 		},
 		{
 			"name" : "CMAKE_INSTALL_NAME_TOOL",
@@ -499,7 +499,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja"
+			"value" : "/Users/dankekz/Applications/CLion.app/Contents/bin/ninja/mac/aarch64/ninja"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -767,7 +767,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30"
+			"value" : "/Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1031,7 +1031,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/vladislavdankevich/CLionProjects/untitled/cmake-build-debug"
+			"value" : "/Users/dankekz/CLionProjects/magistracy_c/cmake-build-debug"
 		},
 		{
 			"name" : "untitled_IS_TOP_LEVEL",
@@ -1055,7 +1055,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/Users/vladislavdankevich/CLionProjects/untitled"
+			"value" : "/Users/dankekz/CLionProjects/magistracy_c"
 		}
 	],
 	"kind" : "cache",

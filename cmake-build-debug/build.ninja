@@ -39,7 +39,7 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /Users/vladislavdankevich/CLionProjects/untitled/cmake-build-debug/
+cmake_ninja_workdir = /Users/dankekz/CLionProjects/magistracy_c/cmake-build-debug/
 # =============================================================================
 # Object build statements for STATIC_LIBRARY target untitled
 
@@ -49,341 +49,453 @@ cmake_ninja_workdir = /Users/vladislavdankevich/CLionProjects/untitled/cmake-bui
 
 build cmake_object_order_depends_target_untitled: phony || .
 
-build CMakeFiles/untitled.dir/library.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/library.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/library.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/library.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/library.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_1/task_1.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_1/task_1.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_1/task_1.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_1/task_1.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_1/task_1.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_1
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_1/task_2.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_1/task_2.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_1/task_2.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_1/task_2.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_1/task_2.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_1
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_1/task_4.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_1/task_4.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_1/task_4.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_1/task_4.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_1/task_4.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_1
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_1/task_6.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_1/task_6.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_1/task_6.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_1/task_6.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_1/task_6.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_1
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_1/task_7.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_1/task_7.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_1/task_7.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_1/task_7.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_1/task_7.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_1
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_1/task_8.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_1/task_8.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_1/task_8.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_1/task_8.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_1/task_8.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_1
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_1/task_9.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_1/task_9.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_1/task_9.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_1/task_9.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_1/task_9.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_1
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_1/task_9_1.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_1/task_9_1.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_1/task_9_1.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_1/task_9_1.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_1/task_9_1.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_1
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_1/task_10.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_1/task_10.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_1/task_10.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_1/task_10.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_1/task_10.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_1
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_1/task_11.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_1/task_11.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_1/task_11.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_1/task_11.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_1/task_11.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_1
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_2/task_1.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_2/task_1.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_2/task_1.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_2/task_1.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_2/task_1.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_2
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_2/task_2.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_2/task_2.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_2/task_2.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_2/task_2.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_2/task_2.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_2
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_2/task_3.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_2/task_3.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_2/task_3.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_2/task_3.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_2/task_3.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_2
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_2/task_4.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_2/task_4.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_2/task_4.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_2/task_4.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_2/task_4.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_2
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_2/task_5.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_2/task_5.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_2/task_5.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_2/task_5.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_2/task_5.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_2
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_2/task_6.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_2/task_6.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_2/task_6.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_2/task_6.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_2/task_6.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_2
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_2/task_7.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_2/task_7.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_2/task_7.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_2/task_7.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_2/task_7.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_2
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_2/task_8.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_2/task_8.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_2/task_8.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_2/task_8.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_2/task_8.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_2
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_2/task_9.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_2/task_9.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_2/task_9.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_2/task_9.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_2/task_9.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_2
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_2/task_10.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_2/task_10.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_2/task_10.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_2/task_10.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_2/task_10.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_2
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_2/task_11.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_2/task_11.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_2/task_11.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_2/task_11.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_2/task_11.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_2
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_3/task_1.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_3/task_1.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_3/task_1.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_3/task_1.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_3/task_1.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_3
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_3/task_2.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_3/task_2.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_3/task_2.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_3/task_2.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_3/task_2.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_3
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_3/task_3.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_3/task_3.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_3/task_3.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_3/task_3.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_3/task_3.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_3
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_3/task_4.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_3/task_4.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_3/task_4.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_3/task_4.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_3/task_4.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_3
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_3/task_5.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_3/task_5.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_3/task_5.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_3/task_5.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_3/task_5.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_3
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_3/task_6.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_3/task_6.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_3/task_6.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_3/task_6.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_3/task_6.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_3
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_3/task_7.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_3/task_7.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_3/task_7.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_3/task_7.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_3/task_7.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_3
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_3/task_8.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_3/task_8.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_3/task_8.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_3/task_8.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_3/task_8.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_3
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_3/task_9.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_3/task_9.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_3/task_9.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_3/task_9.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_3/task_9.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_3
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_3/task_10.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_3/task_10.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_3/task_10.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_3/task_10.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_3/task_10.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_3
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_3/task_10_1.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_3/task_10_1.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_3/task_10_1.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_3/task_10_1.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_3/task_10_1.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_3
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_3/task_11.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_3/task_11.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_3/task_11.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_3/task_11.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_3/task_11.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_3
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_4/task_1.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_4/task_1.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_4/task_1.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_4/task_1.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_4/task_1.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_4
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_4/task_2.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_4/task_2.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_4/task_2.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_4/task_2.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_4/task_2.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_4
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_4/task_3.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_4/task_3.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_4/task_3.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_4/task_3.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_4/task_3.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_4
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_4/task_4.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_4/task_4.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_4/task_4.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_4/task_4.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_4/task_4.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_4
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_4/task_5.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_4/task_5.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_4/task_5.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_4/task_5.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_4/task_5.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_4
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_4/task_6.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_4/task_6.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_4/task_6.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_4/task_6.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_4/task_6.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_4
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_4/task_7.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_4/task_7.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_4/task_7.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_4/task_7.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_4/task_7.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_4
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_4/task_8.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_4/task_8.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_4/task_8.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_4/task_8.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_4/task_8.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_4
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_4/task_9.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_4/task_9.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_4/task_9.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_4/task_9.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_4/task_9.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_4
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_4/task_10.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_4/task_10.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_4/task_10.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_4/task_10.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_4/task_10.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_4
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_4/task_11.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_4/task_11.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_4/task_11.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_4/task_11.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_4/task_11.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_4
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_5/task_1.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_5/task_1.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_5/task_1.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_5/task_1.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_5/task_1.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_5
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_5/task_2.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_5/task_2.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_5/task_2.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_5/task_2.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_5/task_2.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_5
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_5/task_3.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_5/task_3.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_5/task_3.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_5/task_3.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_5/task_3.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_5
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_5/task_4.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_5/task_4.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_5/task_4.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_5/task_4.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_5/task_4.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_5
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_5/task_5.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_5/task_5.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_5/task_5.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_5/task_5.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_5/task_5.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_5
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_5/task_6.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_5/task_6.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_5/task_6.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_5/task_6.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_5/task_6.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_5
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_5/task_7.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_5/task_7.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_5/task_7.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_5/task_7.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_5/task_7.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_5
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_5/task_8.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_5/task_8.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_5/task_8.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_5/task_8.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_5/task_8.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_5
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_5/task_9.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_5/task_9.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_5/task_9.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_5/task_9.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_5/task_9.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_5
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_5/task_10.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_5/task_10.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_5/task_10.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_5/task_10.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_5/task_10.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_5
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
-build CMakeFiles/untitled.dir/os_architecture/lab_5/task_11.c.o: C_COMPILER__untitled_unscanned_Debug /Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_5/task_11.c || cmake_object_order_depends_target_untitled
+build CMakeFiles/untitled.dir/os_architecture/lab_5/task_11.c.o: C_COMPILER__untitled_unscanned_Debug /Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_5/task_11.c || cmake_object_order_depends_target_untitled
   DEP_FILE = CMakeFiles/untitled.dir/os_architecture/lab_5/task_11.c.o.d
   FLAGS = -g -std=gnu11 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.2.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled.dir/os_architecture/lab_5
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
+  TARGET_PDB = libuntitled.pdb
 
 
 # =============================================================================
@@ -399,15 +511,16 @@ build libuntitled.a: C_STATIC_LIBRARY_LINKER__untitled_Debug CMakeFiles/untitled
   OBJECT_DIR = CMakeFiles/untitled.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = CMakeFiles/untitled.dir/untitled.pdb
   TARGET_FILE = libuntitled.a
-  TARGET_PDB = untitled.a.dbg
+  TARGET_PDB = libuntitled.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/vladislavdankevich/CLionProjects/untitled/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  COMMAND = cd /Users/dankekz/CLionProjects/magistracy_c/cmake-build-debug && /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
   DESC = No interactive CMake dialog available...
   restat = 1
 
@@ -418,7 +531,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /Users/vladislavdankevich/CLionProjects/untitled/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/vladislavdankevich/CLionProjects/untitled -B/Users/vladislavdankevich/CLionProjects/untitled/cmake-build-debug
+  COMMAND = cd /Users/dankekz/CLionProjects/magistracy_c/cmake-build-debug && /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/bin/cmake --regenerate-during-build -S/Users/dankekz/CLionProjects/magistracy_c -B/Users/dankekz/CLionProjects/magistracy_c/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -436,7 +549,7 @@ build untitled: phony libuntitled.a
 # =============================================================================
 
 #############################################
-# Folder: /Users/vladislavdankevich/CLionProjects/untitled/cmake-build-debug
+# Folder: /Users/dankekz/CLionProjects/magistracy_c/cmake-build-debug
 
 build all: phony libuntitled.a
 
@@ -447,14 +560,14 @@ build all: phony libuntitled.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/vladislavdankevich/CLionProjects/untitled/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCCompilerABI.c /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystem.cmake.in /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/dankekz/CLionProjects/magistracy_c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/vladislavdankevich/CLionProjects/untitled/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
+build /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCCompiler.cmake.in /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCCompilerABI.c /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCInformation.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCommonLanguageInclude.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeCompilerIdDetection.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineCompilerSupport.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeFindBinUtils.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeGenericSystem.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeInitializeConfigs.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeParseImplicitIncludeInfo.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeParseImplicitLinkInfo.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeParseLibraryArchitecture.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystem.cmake.in /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/CMakeTestCompilerCommon.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/ADSP-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/ARMCC-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/ARMClang-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-C.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/AppleClang-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Borland-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Clang.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Cray-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/CrayClang-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GHS-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/GNU.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/HP-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/IAR-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Intel-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/LCC-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/MSVC-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/NVHPC-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/OrangeC-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/PGI-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/PathScale-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/SCO-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/TI-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/TIClang-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Tasking-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/Watcom-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/XL-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Compiler/zOS-C-DetermineCompiler.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Internal/FeatureTesting.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-AppleClang-C.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang-C.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Apple-Clang.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin-Initialize.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/Darwin.cmake /Users/dankekz/Applications/CLion.app/Contents/bin/cmake/mac/aarch64/share/cmake-3.30/Modules/Platform/UnixPaths.cmake /Users/dankekz/CLionProjects/magistracy_c/CMakeLists.txt CMakeCache.txt CMakeFiles/3.30.5/CMakeCCompiler.cmake CMakeFiles/3.30.5/CMakeSystem.cmake: phony
 
 
 #############################################

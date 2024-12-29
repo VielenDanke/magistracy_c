@@ -1,3 +1,3 @@
-/Users/vladislavdankevich/CLionProjects/untitled/cmake-build-debug/CMakeFiles/untitled.dir
-/Users/vladislavdankevich/CLionProjects/untitled/cmake-build-debug/CMakeFiles/edit_cache.dir
-/Users/vladislavdankevich/CLionProjects/untitled/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/dankekz/CLionProjects/magistracy_c/cmake-build-debug/CMakeFiles/untitled.dir
+/Users/dankekz/CLionProjects/magistracy_c/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/dankekz/CLionProjects/magistracy_c/cmake-build-debug/CMakeFiles/rebuild_cache.dir

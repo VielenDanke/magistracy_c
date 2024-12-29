@@ -41,9 +41,9 @@ void sigint_handler(int sig) {
 
 int main() {
     char *path_to_client_key_file =
-            "/Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_5/client_queue_task_9";
+            "/Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_5/client_queue_task_9";
     char *path_to_server_key_file =
-            "/Users/vladislavdankevich/CLionProjects/untitled/os_architecture/lab_5/server_queue_task_9";
+            "/Users/dankekz/CLionProjects/magistracy_c/os_architecture/lab_5/server_queue_task_9";
 
     key_t server_key, client_key;
 
@@ -51,14 +51,16 @@ int main() {
         perror("ftok");
         exit(1);
     }
-
-    if ((server_msqid = msgget(server_key, 0666 | IPC_CREAT)) == -1) {
-        perror("msgget");
+    if ((client_key = ftok(path_to_client_key_file, 72)) == -1) {
+        perror("ftok");
         exit(1);
     }
 
-    if ((client_key = ftok(path_to_client_key_file, 72)) == -1) {
-        perror("ftok");
+    msgctl(client_key, IPC_RMID, NULL);
+    msgctl(server_key, IPC_RMID, NULL);
+
+    if ((server_msqid = msgget(server_key, 0666 | IPC_CREAT)) == -1) {
+        perror("msgget");
         exit(1);
     }
 
@@ -87,7 +89,9 @@ int main() {
                 fprintf(stderr, "Error formatting the string.\n");
                 return 1; // Handle the error
             }
-            struct message serv_msg = {1};
+            struct message serv_msg;
+
+            serv_msg.mtype = 1;
 
             strcpy(serv_msg.mtext, str);
 
@@ -104,7 +108,9 @@ int main() {
                     fprintf(stderr, "Error formatting the string.\n");
                     exit(EXIT_FAILURE); // Handle the error
                 }
-                struct message to_send = {current_pid};
+                struct message to_send;
+
+                to_send.mtype = current_pid;
 
                 strcpy(to_send.mtext, str);
 
@@ -116,19 +122,17 @@ int main() {
                 struct message msg;
                 // msgtype 0 - pick any first message
                 // MSG_NOERROR - trim message if it's too big
-                if (msgrcv(client_msqid, &msg, sizeof(msg.mtext), current_pid, IPC_NOWAIT) == -1) {
+                if (msgrcv(client_msqid, &msg, sizeof(msg.mtext), current_pid, 0) == -1) {
                     printf("No message exist for client %d", getpid());
-                    sleep(5);
+                    sleep(1);
                     continue;
                 }
                 printf("Client %d received message: %s\n", getpid(), msg.mtext);
 
-                sleep(5);
+                sleep(1);
             }
         }
     }
-    sleep(2);
-
     signal(SIGINT, sigint_handler);
 
     printf("Parent process with PID %d started\n", getpid());
@@ -138,16 +142,16 @@ int main() {
 
         if (msgrcv(server_msqid, &msg, sizeof(msg.mtext), 0, IPC_NOWAIT) == -1) {
             printf("No message exist for server\n");
-            sleep(5);
+            sleep(2);
             continue;
         }
         if (msg.mtype == 0) {
             printf("Empty message - continue\n");
-            sleep(5);
+            sleep(2);
             continue;
         }
         if (msg.mtype == 1) {
-            printf("Received client configuration message\n");
+            printf("Received client configuration message with %ld mtype and text %s\n", msg.mtype, msg.mtext);
 
             if (client_idx == sizeof(clients)) {
                 printf("Client list is full. Skip adding client\n");
@@ -169,20 +173,25 @@ int main() {
                 fprintf(stderr, "Invalid number: zero length.\n");
                 exit(EXIT_FAILURE);
             }
+            printf("Setting client type %ld for client idx %d\n", number, client_idx);
             clients[client_idx++] = number;
-            sleep(5);
+            sleep(2);
             continue;
         }
+        printf("Receive message from client with %ld type and %s message\n", msg.mtype, msg.mtext);
 
-        for (int i = 0; i < sizeof(clients); i++) {
+        for (int i = 0; i < 5; i++) {
             if (clients[i] == msg.mtype) {
                 printf("Skip sending self message to a client %ld\n", clients[i]);
                 continue;
             }
             if (clients[i] == 0) {
+                printf("No client was set for index %d. Skip sending\n", i);
                 continue;
             }
-            struct message new_msg = {clients[i]};
+            struct message new_msg;
+
+            new_msg.mtype = clients[i];
 
             strcpy(new_msg.mtext, msg.mtext);
 
@@ -191,6 +200,6 @@ int main() {
                 exit(EXIT_FAILURE);
             }
         }
-        sleep(5);
+        sleep(2);
     }
 }
